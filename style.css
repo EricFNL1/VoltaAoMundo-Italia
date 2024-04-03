@@ -6,6 +6,16 @@ h1{
 display: none;
 }
 
+.card{
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    color: black;
+}
+
 h5{
     text-transform: uppercase;
     font-size: 1.0rem;
@@ -61,4 +71,5 @@ h5{
     background: #FFF;
     text-decoration: none;
 }
+
 

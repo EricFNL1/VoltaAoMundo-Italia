@@ -8,20 +8,10 @@
     <title>Página HOME, Projeto Volta ao mundo.</title>
 </head>
 <body class="background">
-
-  <!--<main>
-   
-</main>-->
-
-  
-    <h1>Itália</h1>
-      
-    <div class="container">
-      
+    <h1>Itália</h1>  
       <nav class="navbar navbar-expand-lg navbarcolor" >
-
-        <div id="logo">
-          <a href="home.html"><img class="img-fluid mx-auto " width="100px" height="100px" src="img/35 Great Free Animated Italy Flags Waving Gifs.gif"></a>
+         <div id="logo">
+          <a href="home.html"><img class="img-fluid  ml-5 " width="100px" height="100px" src="img/genoa-italy.gif"></a>
         </div>
         <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="btn btn-secondary dropdown-toggle" ></span>
@@ -37,27 +27,19 @@
                 <li class="nav-item" id="cab">
                   <a class="nav-link mx-5 font-menu" href="pontturisticos.html">Pontos turísticos</a>
                 </li>
-                <li class="nav-item mx-5 dropdown" id="cab" >
-                  <a class="nav-link dropdown-toggle font-menu"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Login
-                  </a>
-                  <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item " href="form-clientes.html">Administrador</a>
-                    <a class="dropdown-item" href="form-filmes.html">User</a>
-                  </div>
-        
-
-
-       </nav>
-    <br>
-    <br>
-   
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <li class="nav-item" id="cab">
+                  <a class="nav-link mx-5 font-menu" href="pontturisticos.html">História</a>
+                </li>
+                
+       </nav> 
+      <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+
+        
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" width="800px" height="400px" src="img/Italia-Roteiro3-compressor.jpg" alt="Primeiro Slide">
@@ -69,6 +51,7 @@
             <img class="d-block w-100" width="800px" height="400px" src="img/roma_italia(1).jpg" alt="Terceiro Slide">
           </div>
         </div>
+        
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Anterior</span>
@@ -80,14 +63,43 @@
       </div>
       <br>
       <br>
+      <div class="row container text-center mx-auto">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Cultura italiana</h2>
+              <p class="card-text">A cultura italiana está mergulhada nas artes, família, arquitetura, música e comida. Casa do Império Romano e um importante centro do Renascimento, a cultura da península italiana floresceu durante séculos. Aqui está uma breve visão geral dos costumes e tradições italianas. </p>
+              <a href="cultura.html" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Pontos turísticos</h2>
+              <p class="card-text">Comece sua incrível jornada na Itália visitando os pontos mais históricos de Roma. Símbolo da Itália e do Império romano, o Coliseu em Roma é um dos monumentos mais famosos do mundo.</p>
+              <a href="pontturisticos.html" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">História</h2>
+              <p class="card-text">A Itália é um país da Europa meridional que faz fronteira ao norte com França, Suíça, Áustria e Eslovênia, cujo território principal forma uma península no mar Mediterrâneo e inclui duas grandes ilhas, a Sicília e a Sardenha. Sofreu, historicamente, a influência de etruscos, gregos e celtas antes de ser unificada em 262 a.C. pelo domínio romano. Roma continua a ser a capital da Itália até hoje. O nome Itália vêm da Roma antiga. Os romanos chamavam de Itália o sul da Península Itálica ou Apenina, que significa "terra de bois" ou "terra de pastos".</p>
+              <a href="historia.html" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      <br>
       <footer class="bg-secondary text-white pt-5 pb-4">
           <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left">
-
-              <div class="col-md-12 text-center mx-auto mt-3">
+             <div class="col-md-12 text-center mx-auto mt-3">
                 <h5>Desenvolvido por Eric Junior</h5>
               </div>
-            </div>
           </div>
       </footer>
      
@@ -97,7 +109,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-   </div>
+    <script>$().button('toggle')</script>
+    <script>$().button('dispose')</script>
 </body>
 </html>
