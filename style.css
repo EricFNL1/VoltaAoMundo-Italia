@@ -76,5 +76,9 @@ h5{
     max-height: 320px;
 }
 
-
+#ispressed{
+    color: #f7b600;
+    background: #FFF;
+    text-decoration: none;
+}
 
