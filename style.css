@@ -82,3 +82,11 @@ h5{
     text-decoration: none;
 }
 
+.ler-mais-content {
+    display: none;
+  }
+  
+.ler-mais-content.show {
+    display: block !important;
+  }
+  
